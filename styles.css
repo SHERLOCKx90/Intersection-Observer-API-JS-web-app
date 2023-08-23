@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    font-family: Poppins, sans-serif;
+}
+
+.card{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid black;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 150ms ease-in-out;
+}
+.show{
+    transform: translateX(0);
+    opacity: 1;
+}
